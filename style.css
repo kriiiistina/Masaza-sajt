@@ -1,0 +1,289 @@
+body{
+    background-image: url(background4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+.navigacioni{
+    list-style: none;
+    margin: 0px;
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.897); 
+}
+
+.navigacioni ul li a{
+    text-decoration: none;
+    color:#FCEAAE;
+    padding: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.navigacioni li{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.navigacioni ul li a:hover{
+    color: rgb(255, 185, 56);
+    font-size: 30px;
+}
+
+.navigacioni img{
+    width: 70px;
+    height:60px;
+    margin-left: 20px;
+}
+
+.text{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.text h2{
+    font-size: 48px;
+    font-weight: 100px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+#podnaslov{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.text p{
+    font-size: 22px;
+    color: black;
+    margin-top: 8px;
+}
+
+.slika{
+    height: 50%;
+    position: absolute;
+    bottom: 130px;
+    right: 110px;
+    animation-name: masaza;
+    animation-duration: 4s;
+}
+
+.dr-ana{
+    margin-left: 50%;
+    margin-top: 8%;
+    margin-right: 7%;
+}
+
+.dr-ana h2{
+    font-size: 48px;
+    font-weight: 100px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.dr-ana p{
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+}
+
+.dr-ana h3{
+    margin: 0;
+    font-size: 25px;
+}
+
+
+.ana-slika{
+    height: 60%;
+    position: absolute;
+    bottom: 120px;
+    left: 230px;
+    animation-name: ana;
+    animation-duration: 4s;
+}
+
+.dr-darko{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.dr-darko h2{
+    font-size: 48px;
+    font-weight: 100px;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.dr-darko h3{
+    margin: 0;
+    font-size: 25px;
+}
+
+.dr-darko p{
+    font-size: 22px;
+    color: black;
+    margin-top: 10px;
+}
+
+.darko-slika{
+    height: 60%;
+    position: absolute;
+    top: 550px;
+    right: 110px;
+}
+
+
+.forma{
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    margin-left: 35%;
+    margin-right: 30%;
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+    background-color: #fceaae86;
+}
+
+.forma h1 h4{
+    display: flex;
+}
+
+.forma h1{
+    margin: 5px;
+}
+
+.forma h4{
+    margin: 10px;
+}
+
+.forma p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.tabela{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+table {
+    font-size: 23px;
+    background-color: #fceaaea4;
+    width: 600px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table th td{
+   border: 1px solid black;
+}
+
+.masaza-slika{
+    height: 50%;
+    position: absolute;
+    bottom: 130px;
+    right: 110px;
+}
+
+.Relax{
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-right:5%;
+    margin-bottom:2%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #FCEAAE;
+    text-align: left;
+}
+
+.Relax h2{
+    font-size: 48px;
+    font-weight: 100px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.Relax p{
+    font-size: 20px;
+    font-weight: 100px;
+    color: black;
+}
+
+#tekst1{
+    font-size: 40px;
+    font-weight: 100px;
+    color: black;
+}
+
+.slika1{
+    position: absolute;
+    height: 110%;
+    bottom: 5%;
+    left: 723px;
+    top: 113%;
+}
+
+@keyframes masaza {
+
+    0%{
+        left: 1000px;
+    }
+
+    100%{
+        left: 800px;
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 380px){
+
+     #podnaslov{
+        margin-top: 215px;
+    }
+
+    .tekst p {
+        top: 200px;
+    }
+
+    .slika{
+        display: block;
+        left:9%;
+        top: 39%;
+        height: 35%;
+    }
+
+    .navigacioni{
+        margin: 0px;
+        height: 90px;
+        display: block;
+        align-items: center; 
+    }
+
+    .navigacioni img{
+       display: none;
+    }
+
+    .navigacioni ul li a{
+        font-size: 24px;
+        padding: 0px 20px;
+    }
+
+    .navigacioni li{
+        display:inline-block;
+        margin: 8px 0px;
+        
+    }
+
+    .navigacioni ul li a:hover{
+        font-size: 25px;
+    }
+
+}
